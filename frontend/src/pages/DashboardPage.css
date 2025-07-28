@@ -1,0 +1,22 @@
+/* frontend/src/pages/DashboardPage.css */
+
+.custom-datepicker {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: rgba(255, 255, 255, 0.09);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+.custom-datepicker:hover {
+  border-color: #ffffff;
+}
+
+.custom-datepicker:focus {
+  outline: none;
+  border-color: #00aaff; /* Cor primária do tema */
+}

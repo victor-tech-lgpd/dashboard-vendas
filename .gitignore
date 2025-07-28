@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de ambiente com segredos
+backend/.env
+frontend/.env
+
+# Dependências e ambientes virtuais
+backend/venv/
+frontend/node_modules/
+
+# Logs e arquivos de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/dist/
+/frontend/.vite/
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+
+# Arquivos de Sistema Operacional e Editores
+.DS_Store
+.vscode/
